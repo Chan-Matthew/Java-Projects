@@ -1,8 +1,8 @@
 import java.io.*;
-public class MdArrayTwo {
+public class MultiDimensionalArray {
 
 	public static void main(String[] args) throws IOException{
-		MdArrayTwo hi = new MdArrayTwo();
+		MultiDimensionalArray hi = new MultiDimensionalArray();
 		int square[][] = new int [5][5];
 		square= hi.fill(square);
 		hi.squareCheck(hi.rowCheck(square), hi.columnCheck(square), hi.diaCheck(square));
